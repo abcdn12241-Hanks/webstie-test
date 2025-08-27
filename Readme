@@ -1,0 +1,9 @@
+# Free Website Starter
+
+這是一個用 **純 HTML + CSS** 製作的簡單網站練習，可以直接部署到 **GitHub Pages**。
+
+## 使用方式
+1. 編輯 `index.html` 與 `about.html`，改成自己的資訊。
+2. 修改 `styles.css` 調整顏色或版面。
+3. 把整個資料夾上傳到 GitHub，然後到 Settings → Pages 啟用。
+4. 幾秒後，你就能看到你的免費網站網址。

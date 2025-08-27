@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hanks免費網站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">我的網站</a>
+      <nav class="nav">
+        <a href="index.html">首頁</a>
+        <a href="about.html">關於我</a>
+        <a href="#contact">聯絡</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>你好！這是你的免費網站 🚀</h1>
+        <p>這是一個簡單的 HTML + CSS 網站，可以放作品集、筆記或公司資訊。</p>
+        <a class="btn" href="about.html">看看關於我</a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container grid-3">
+        <article class="card">
+          <h3>完全免費</h3>
+          <p>使用 GitHub Pages 託管，不需伺服器費用。</p>
+        </article>
+        <article class="card">
+          <h3>超級簡單</h3>
+          <p>只要修改 <code>index.html</code> 和 <code>styles.css</code> 就能開始。</p>
+        </article>
+        <article class="card">
+          <h3>可擴充</h3>
+          <p>之後可加入更多頁面、圖片、或整合表單。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>聯絡我</h2>
+        <ul>
+          <li>Email：<a href="mailto:you@example.com">you@example.com</a></li>
+          <li>IG：<a href="#" target="_blank">your_instagram</a></li>
+          <li>地址：台灣·台北</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 我的網站 · Powered by GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
