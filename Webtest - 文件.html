@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>關於我的免費網站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">我的網站</a>
+      <nav class="nav">
+        <a href="index.html">首頁</a>
+        <a href="about.html" aria-current="page">關於我</a>
+        <a href="index.html#contact">聯絡</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>關於我</h1>
+    <p>這裡放我練習的東西。</p>
+    <h2>我的專長</h2>
+    <ul>
+      <li>Python</li>
+      <li>Web</li>
+      <li>點餐通2.0</li>
+    </ul>
+    <p><a class="btn" href="index.html">回首頁</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 我的網站</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
